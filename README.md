@@ -55,10 +55,10 @@ Pico: ![](pico2.png)使用上鍵(跳)、左鍵(向左)、右鍵(向右)來控制
 
 
 ### 遊戲畫面
-(image.png)
-(image2.png)
-(image3.png)
-(image4.png)
+![](image.png)
+![](image2.png)
+![](image3.png)
+![](image4.png)
 
 ## 程式設計
 
