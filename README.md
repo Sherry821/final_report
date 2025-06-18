@@ -103,9 +103,9 @@ Pico: ![](pico2.png)使用上鍵(跳)、左鍵(向左)、右鍵(向右)來控制
 ### 程式技術
 
 - GameObject 系統繼承結構
-  - Object 繼承自 Object，類別作為基礎遊戲物件
+  - Object 繼承自 GameObject，類別作為基礎遊戲物件
   - Character 繼承自 GameObject，提供pico基本行為（位置、大小、碰撞）。
-  - AnimatedCharacter 繼承自 GameObject，提供動畫施作。
+  - AnimatedCharacter 繼承自 Object，提供動畫施作。
   - Board、Key、Door 等從 Object 繼承並實作特定功能。
 - 模組化設計
   - 將不同功能分離到不同的類別中（Camera, Object, Character 等）
@@ -114,7 +114,7 @@ Pico: ![](pico2.png)使用上鍵(跳)、左鍵(向左)、右鍵(向右)來控制
   - PhaseResourceManger 負責管理不同遊戲階段間的切換。
   - ValidTask負責管理不同遊戲階段的資源。
 - 互動與事件系統
-  - 碰撞偵測：使用 AABB 碰撞檢測 (CheckCollision)來判斷物件是否重疊。
+  - 碰撞偵測：使用 CheckCollision 來判斷物件是否重疊。
   - 互動:透過 Interact()實現封裝及物件間的協作
 
 
