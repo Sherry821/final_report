@@ -110,7 +110,7 @@ Pico: ![](pico2.png)使用上鍵(跳)、左鍵(向左)、右鍵(向右)來控制
   - PhaseResourceManger 負責管理不同遊戲階段間的切換。
   - ValidTask負責管理不同遊戲階段的資源。
 - 互動與事件系統
-  - 碰撞偵測：使用 CheckCollision 來判斷物件是否重疊。
+  - 碰撞偵測：使用 AABB碰撞(CheckCollision) 來判斷物件是否重疊。
   - 互動:透過 Interact()實現封裝及物件間的協作
 
 
