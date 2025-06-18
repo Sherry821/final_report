@@ -96,7 +96,7 @@ Pico: ![](pico2.png)使用上鍵(跳)、左鍵(向左)、右鍵(向右)來控制
   - 處理遊戲背景圖像
   - 提供背景圖層管理
 - PhaseResourceManger.hpp / PhaseManager.cpp
-  - 管理不同遊戲階段的資源加載和釋放
+  - 管理不同遊戲階段的物件位置擺放、初始設置等
   - 控制遊戲階段轉換
 - main.cpp
   - 程式的入口點
